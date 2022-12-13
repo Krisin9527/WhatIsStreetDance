@@ -1,0 +1,83 @@
+footer p {
+    font-size: 9px;
+}
+
+p, h1 {
+    color: brown;
+}
+
+.header-color {
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(../image/streetdance_1.jpg);
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+nav ul li a:hover {
+    background-color: #1D3124;
+    /* text-decoration: underline; */
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    margin-right: 30px;
+    padding: 10PX ;
+    border: 3px solid rgb(0, 0, 0);
+    transition: all .3s;
+    background-color: bisque
+}
+.nav-li:hover {
+    background-color: rgba(rgb(83, 128, 53));
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.A1 {
+    text-align: center;
+}
+
+.footer {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item1 {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+.item2 {
+    border-style: solid;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    right: 0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+body {
+    font-family: 'Nerko One', cursive;
+    
+}
